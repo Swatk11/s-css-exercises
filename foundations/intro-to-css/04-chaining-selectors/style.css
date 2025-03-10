@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+/* avatar & proportioned - 300px wide and height auto, avatar & distorted - 200px wide and height 2*wide */
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+/* will not get applied as first takes priority */
+/* .avatar { */
+    /* width: 500px; */
+    /* height: auto; */
+/* } */
